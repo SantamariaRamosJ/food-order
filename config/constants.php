@@ -5,7 +5,7 @@
 
 
     //Create constants to store non repeating values
-    define('SITEURL', 'https://testing-file.herokuapp.com/');
+    define('SITEURL', 'https://git.heroku.com/food-order-php-app.git');
     define('LOCALHOST', 'sql10.freemysqlhosting.net');
     define('DB_USERNAME', 'sql10406117');
     define('DB_PASSWORD', 'JVKyKUPpfy');
