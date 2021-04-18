@@ -6,6 +6,8 @@
     <meta charset="UTF-8">
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://icons8.com/icon/36138/hamburger">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <title>Restaurant Website</title>
 
     <!-- Link our CSS file -->
