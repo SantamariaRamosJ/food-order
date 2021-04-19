@@ -33,7 +33,7 @@
                 <a class="nav-item" href="<?php echo SITEURL; ?>">Home</a>
                 <a class="nav-item" href="<?php echo SITEURL; ?>categories.php">Categories</a>
                 <a class="nav-item" href="<?php echo SITEURL; ?>foods.php">Foods</a>
-                <a class="nav-item" href="#">Contact</a>
+                <!-- <a class="nav-item" href="#">Contact</a> -->
             </div>
         </div>
     </nav>
