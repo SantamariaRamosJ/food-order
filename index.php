@@ -1,6 +1,6 @@
 <?php include("partials-front/menu.php"); ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!-- food search section starts here -->
     <section class="food-search text-center">
         <div class="container">
             
@@ -11,7 +11,7 @@
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    <!-- food search section ends here -->
     <?php 
     if(isset($_SESSION['order']))
     {
@@ -20,9 +20,9 @@
     }
     ?>
 
-    <!-- CAtegories Section Starts Here -->
+    <!-- Categories Section Starts Here -->
     <section class="categories">
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="text-center">Explore Foods</h2>
 
             <?php 
@@ -43,6 +43,11 @@
                         $title = $row['title'];
                         $image_name = $row['image_name'];
                         ?>
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+            </div>
 
                         <a href="<?php echo SITEURL; ?>category-foods.php?category_id=<?php echo $id; ?>">
                             <div class="box-3 float-container">
@@ -75,18 +80,14 @@
                 }
             ?>
 
-            
-
-            
-
             <div class="clearfix"></div>
         </div>
     </section>
     <!-- Categories Section Ends Here -->
 
-    <!-- fOOD MEnu Section Starts Here -->
+    <!-- food MEnu Section Starts Here -->
     <section class="food-menu">
-        <div class="container">
+        <div class="container-fluid">
             <h2 class="text-center">Food Menu</h2>
 
             <?php 
@@ -156,9 +157,10 @@
         </div>
 
         <p class="text-center">
-            <a href="#">See All Foods</a>
+            <a href="<?php echo SITEURL; ?>foods.php">See All Foods</a>
         </p>
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+    <!-- food Menu Section Ends Here -->
+    <br>
 
     <?php include("partials-front/footer.php"); ?>

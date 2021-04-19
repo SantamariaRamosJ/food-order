@@ -8,6 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://icons8.com/icon/36138/hamburger">
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
     <title>Restaurant Website</title>
 
     <!-- Link our CSS file -->
@@ -17,32 +21,22 @@
 
 <body>
     <!-- Navbar Section Starts Here -->
-    <section class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="#" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
-                </a>
-            </div>
 
-            <div class="menu text-right">
-                <ul>
-                    <li>
-                        <a href="<?php echo SITEURL; ?>">Home</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo SITEURL; ?>categories.php">Categories</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <img class="logo ml-5" height="85" src="https://img.icons8.com/plasticine/200/000000/noodles.png"/>
+        <a class="navbar-brand" style="color: white; margin-left:0.5rem;" href="#">OhMyFood !</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item" href="<?php echo SITEURL; ?>">Home</a>
+                <a class="nav-item" href="<?php echo SITEURL; ?>categories.php">Categories</a>
+                <a class="nav-item" href="<?php echo SITEURL; ?>foods.php">Foods</a>
+                <a class="nav-item" href="#">Contact</a>
             </div>
-
-            <div class="clearfix"></div>
         </div>
-    </section>
+    </nav>
     <!-- Navbar Section Ends Here -->
+
+    <br><br><br>
