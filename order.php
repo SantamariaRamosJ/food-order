@@ -87,7 +87,7 @@
                 </fieldset>
                 
                 <fieldset>
-                    <legend>Delivery Details</legend>
+                    <legend class="text-white">Delivery Details</legend>
                     <div class="order-label text-white">Full Name</div>
                     <input type="text" name="full-name" placeholder="E.g. Robert Clarke" class="input-responsive" required>
 
