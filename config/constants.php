@@ -3,7 +3,7 @@
     session_start();
 
     //Create constants to store non repeating values
-    define('SITEURL', 'http://localhost/food-order/');
+    define('SITEURL', 'https://food-order-app-php.herokuapp.com/');
     define('LOCALHOST', 'sql10.freemysqlhosting.net');
     define('DB_USERNAME', 'sql10406117');
     define('DB_PASSWORD', 'JVKyKUPpfy');
