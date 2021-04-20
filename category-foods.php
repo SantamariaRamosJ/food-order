@@ -35,7 +35,6 @@
     <!-- food search Section Ends Here -->
 
 
-
     <!-- food menu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
