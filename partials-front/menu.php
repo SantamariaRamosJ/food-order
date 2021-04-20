@@ -27,8 +27,8 @@ include('config/constants.php');
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-            <img class="logo ml-5" src="https://img.icons8.com/doodle/100/000000/soup-plate.png" href="https://food-order-app-php.herokuapp.com/"/>
-            <a class="navbar-brand" style="color: white;" href="https://food-order-app-php.herokuapp.com/">OhMyFood! </a>
+            <img class="logo ml-5" src="https://img.icons8.com/doodle/100/000000/soup-plate.png" href="https://ohmyfood-app.herokuapp.com/"/>
+            <a class="navbar-brand" style="color: white;" href="https://ohmyfood-app.herokuapp.com/">OhMyFood! </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="line"></span>
                 <span class="line"></span>
