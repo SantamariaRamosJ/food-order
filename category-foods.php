@@ -24,7 +24,7 @@
     
 ?>
 
-    <!-- fOOD sEARCH Section Starts Here -->
+    <!-- food search Section Starts Here -->
     <section class="food-search text-center">
         <div class="container">
             
@@ -32,18 +32,18 @@
 
         </div>
     </section>
-    <!-- fOOD sEARCH Section Ends Here -->
+    <!-- food search Section Ends Here -->
 
 
 
-    <!-- fOOD MEnu Section Starts Here -->
+    <!-- food menu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
             <h2 class="text-center">Food Menu</h2>
             <?php 
             //SQL query to get food based on select category
 
-            $sql2 = "SELECT * FROM food WHERE category_id=$category_id";
+            $sql2 = "SELECT * FROM food WHERE category_id = $category_id";
 
             //execute the query
             $res2 = mysqli_query($conn, $sql2);
@@ -75,7 +75,7 @@
                             {
                                 //display img
                                 ?>
-                                <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="Chicke Hawain Pizza" class="img-responsive img-curve">
+                                <img src="<?php echo SITEURL; ?>images/food/<?php echo $image_name; ?>" alt="" class="img-responsive img-curve">
                                 <?php
                             }
                             ?>
@@ -110,6 +110,7 @@
         </div>
 
     </section>
-    <!-- fOOD Menu Section Ends Here -->
+    <!-- food Menu Section Ends Here -->
+    <br><br>
 
     <?php include("partials-front/footer.php"); ?>

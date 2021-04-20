@@ -15,6 +15,7 @@
         if(isset($_SESSION['order']))
         {
             echo $_SESSION['order'];
+            echo "<script src='alerts.js'></script>";
             unset($_SESSION['order']);
         }
     ?>
@@ -81,6 +82,7 @@
             <h2 class="text-center">Food Menu</h2>
             <?php 
             //getting food from database that are active and featured
+            
             $sql2 = "SELECT * FROM food WHERE active='Yes' AND featured='Yes' LIMIT 6";
 
             //execute the query
@@ -143,9 +145,10 @@
         </div>
 
         <p class="text-center">
-            <a href="">See All Foods</a>
+            <a href="https://food-order-app-php.herokuapp.com/foods.php">See All Foods</a>
         </p>
     </section>
     <!-- Food Menu Section Ends Here -->
+    <br><br>
 
     <?php include("partials-front/footer.php"); ?>

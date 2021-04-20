@@ -83,4 +83,6 @@
     </section>
     <!-- fOOD Menu Section Ends Here -->
 
+    <br><br>
+
     <?php include("partials-front/footer.php"); ?>

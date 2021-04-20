@@ -1,4 +1,7 @@
-<?php include('config/constants.php'); ?>
+<?php 
+ob_start();
+include('config/constants.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,7 +9,14 @@
     <meta charset="UTF-8">
     <!-- Important to make website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
+    <link rel="icon" href="https://icons8.com/icon/36138/hamburger">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <title>OhMyFood - Food Delivery</title>
 
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
@@ -15,32 +25,24 @@
 
 <body>
     <!-- Navbar Section Starts Here -->
-    <section class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="#" title="Logo">
-                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
-                </a>
-            </div>
 
-            <div class="menu text-right">
-                <ul>
-                    <li>
-                        <a href="<?php echo SITEURL; ?>">Home</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo SITEURL; ?>categories.php">Categories</a>
-                    </li>
-                    <li>
-                        <a href="<?php echo SITEURL; ?>foods.php">Foods</a>
-                    </li>
-                    <!-- <li>
-                        <a href="">Contact</a>
-                    </li> -->
-                </ul>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <img class="logo ml-5" src="https://img.icons8.com/doodle/100/000000/soup-plate.png" href="https://food-order-app-php.herokuapp.com/"/>
+        <a class="navbar-brand" style="color: white;" href="https://food-order-app-php.herokuapp.com/">OhMyFood! </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="line"></span> 
+            <span class="line"></span> 
+            <span class="line" style="margin-bottom: 0;"></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item" href="<?php echo SITEURL; ?>">Home</a>
+                <a class="nav-item" href="<?php echo SITEURL; ?>categories.php">Categories</a>
+                <a class="nav-item" href="<?php echo SITEURL; ?>foods.php">Foods</a>
+                <!-- <a class="nav-item" href="#">Contact</a> -->
             </div>
-
-            <div class="clearfix"></div>
         </div>
-    </section>
+    </nav>
     <!-- Navbar Section Ends Here -->
+
+    <br><br><br>
