@@ -17,7 +17,6 @@ include('config/constants.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <title>OhMyFood - Food Delivery</title>
-
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
     
@@ -26,23 +25,28 @@ include('config/constants.php');
 <body>
     <!-- Navbar Section Starts Here -->
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <img class="logo ml-5" src="https://img.icons8.com/doodle/100/000000/soup-plate.png" href="https://food-order-app-php.herokuapp.com/"/>
-        <a class="navbar-brand" style="color: white;" href="https://food-order-app-php.herokuapp.com/">OhMyFood! </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="line"></span> 
-            <span class="line"></span> 
-            <span class="line" style="margin-bottom: 0;"></span>
-        </button>
-        <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item" href="<?php echo SITEURL; ?>">Home</a>
-                <a class="nav-item" href="<?php echo SITEURL; ?>categories.php">Categories</a>
-                <a class="nav-item" href="<?php echo SITEURL; ?>foods.php">Foods</a>
-                <!-- <a class="nav-item" href="#">Contact</a> -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <img class="logo ml-5" src="https://img.icons8.com/doodle/100/000000/soup-plate.png" href="https://food-order-app-php.herokuapp.com/"/>
+            <a class="navbar-brand" style="color: white;" href="https://food-order-app-php.herokuapp.com/">OhMyFood! </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+                <div class="navbar-nav menu">
+                    <a class="nav-item" href="<?php echo SITEURL; ?>">Home</a>
+                    <a class="nav-item" href="<?php echo SITEURL; ?>categories.php">Categories</a>
+                    <a class="nav-item" href="<?php echo SITEURL; ?>foods.php">Foods</a>
+                </div>
             </div>
         </div>
     </nav>
     <!-- Navbar Section Ends Here -->
 
-    <br><br><br>
+    
+
+    
+
+        

@@ -1,4 +1,4 @@
 
-sweetAlert("Success!", "Your Food Was Ordered Succesfully", "success");
+swal("Success!", "Your Food Was Ordered Succesfully", "success");
 
 

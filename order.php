@@ -142,7 +142,7 @@ if(isset($_POST['submit']))
         if($res2)
         {
             //Query executed and order saved
-            $_SESSION['order'] = "<script src='./scripts/success.js'></script>>";
+            $_SESSION['order'] = "<script src='./scripts/success.js'></script>";
             header('location:'.SITEURL);
             
         }

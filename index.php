@@ -15,8 +15,15 @@
         if(isset($_SESSION['order']))
         {
             echo $_SESSION['order'];
-            echo "<script src='alerts.js'></script>";
+            // echo "<script src='alerts.js'></script>";
             unset($_SESSION['order']);
+        }
+
+        if(isset($_SESSION['search']))
+        {
+            echo $_SESSION['search'];
+            // echo "<script src='./scripts/failed-search.js'></script>";
+            unset($_SESSION['search']);
         }
     ?>
 
@@ -42,7 +49,7 @@
                         $image_name = $row['image_name'];
                         ?>
 
-                        <a href="<?php echo SITEURL; ?>category-foods.php?category_id=<?php echo $id; ?>">
+                        <a href="<?php echo SITEURL; ?>foods.php">
                             <div class="box-3 float-container">
                                 <?php
                                 //check whether the image is available or not

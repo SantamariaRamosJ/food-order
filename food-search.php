@@ -14,8 +14,6 @@
     </section>
     <!-- fOOD sEARCH Section Ends Here -->
 
-
-
     <!-- fOOD MEnu Section Starts Here -->
     <section class="food-menu">
         <div class="container">
@@ -79,7 +77,8 @@
             else
             {
                 //food not available
-                echo "<div class='error'>Food not Available</div>";
+                $_SESSION['search'] = "<script src='./scripts/failed-search.js'></script>";
+                header('location:'.SITEURL);
             }
 
             ?>
