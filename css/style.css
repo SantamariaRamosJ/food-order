@@ -329,13 +329,13 @@ background: #8C031C;
 
     .nav-item{
         /* margin-left: 1rem; */
-        
+
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
 
     .nav-item:hover{
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
