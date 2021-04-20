@@ -184,11 +184,6 @@ fieldset{
     border-color: white;
     }
 
-  
-
-    
-
-    
 
 /* CSS for Food SEarch Section */
 
@@ -338,6 +333,11 @@ background: #8C031C;
         margin-top: 1rem;
     }
 
+    .nav-item:hover{
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
 
     .logo{
         width: 11%;
@@ -358,7 +358,6 @@ background: #8C031C;
         margin:0;
         text-shadow: 2px 2px 8px black;
     }
-
 
     .menu ul{
         text-align: center;
