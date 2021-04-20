@@ -34,12 +34,15 @@
     font-weight: 600;
     color: white;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 5px black;
+
 }
 
 .nav-item:hover{
     margin-left: 5rem;
     font-weight: 700;
     color:cornsilk;
+    text-shadow: 1px 1px 5px black;
 }
 
 
@@ -332,12 +335,16 @@ background: #8C031C;
 
         margin-bottom: 1rem;
         margin-top: 1rem;
+        text-shadow: 1px 1px 5px black;
+
     }
 
     .nav-item:hover{
         /* margin-left: 1rem; */
         margin-bottom: 1rem;
         margin-top: 1rem;
+        text-shadow: 1px 1px 5px black;
+
     }
 
     .logo{
