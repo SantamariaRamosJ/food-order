@@ -17,7 +17,7 @@ include('config/constants.php');
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <title>OhMyFood - Food Delivery</title>
-    <link rel="shortcut icon" href="https://img.icons8.com/plasticine/100/000000/restaurant.png">
+    <link rel="shortcut icon" href="https://img.icons8.com/cotton/100/000000/food-delivery--v1.png">
     <!-- Link our CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
