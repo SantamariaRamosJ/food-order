@@ -152,7 +152,7 @@
         </div>
 
         <p class="text-center">
-            <a href="https://food-order-app-php.herokuapp.com/foods.php">See All Foods</a>
+            <a href="<?php echo SITEURL; ?>order.php">See All Foods</a>
         </p>
     </section>
     <!-- Food Menu Section Ends Here -->
