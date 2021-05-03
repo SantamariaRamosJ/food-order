@@ -95,6 +95,19 @@ a:hover{
     padding: 0.5rem;
 }
 
+.search-button{
+    background-color: #590817;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.search-button:hover{
+    color: white;
+    background-color: #6d0518;
+}
+
+
 .btn-primary:hover{
     color: white;
     background-color: #6d0518;
