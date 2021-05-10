@@ -99,7 +99,8 @@ a:hover{
     background-color: #590817;
     color: white;
     cursor: pointer;
-    padding: 1rem;
+    padding: 0.8rem;
+    border-radius: 2px;
 }
 
 .search-button:hover{
